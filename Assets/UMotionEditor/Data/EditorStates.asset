@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GeneralStates:
     LoadedProjectGUID:
-      valueInternal: 
+      valueInternal: f00b01543cd21ca4591079106997c179
     RecentlyOpenedProjectPath:
-      valueInternal: 
-    RecentlyOpenedProjectGUIDsList: []
+      valueInternal: Assets\Low Poly FPS Pack - Free (Sample)\AnimController
+    RecentlyOpenedProjectGUIDsList:
+    - valueInternal: f00b01543cd21ca4591079106997c179
