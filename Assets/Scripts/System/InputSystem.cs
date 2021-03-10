@@ -13,6 +13,7 @@ public class InputSystem {
 
     }
 
+    //按下键盘
     public bool KeyPressDown(KeyCode code) {
         if(code != KeyCode.None) {
             return Input.GetKeyDown(code);
@@ -24,6 +25,7 @@ public class InputSystem {
         return false;
     }
 
+    
     public bool MousePressDown(int code) {
         if(code >= 0) {
             return Input.GetMouseButtonDown(code);

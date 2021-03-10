@@ -46,5 +46,4 @@ public class Role{
 
         return roleObj;
     }
-
 }

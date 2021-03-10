@@ -15,13 +15,19 @@ public class RoleManager{
     }
 
     public void OnUpdate() {
-
+        roleFPSMotor.OnUpdate();
     }
 
+    public void OnFixedUpdate(){
+        roleFPSMotor.OnFixedUpdate();
+    }
     public void CreateRole() {//创建角色
         Role role = new Role();
         role.Init(sORoleBase);
         roles.Add(role);
         GameDataSystem.localRole = role;
+        
+        roleFPSController = role.roleFPSController;
+        roleFPSMotor = role.roleFPSMotor;
     }
 }

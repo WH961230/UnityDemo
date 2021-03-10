@@ -13,4 +13,8 @@ public class EventSystem{
     public void OnUpdate(){
         
     }
+
+    public void OnFixedUpdate(){
+        
+    }
 }

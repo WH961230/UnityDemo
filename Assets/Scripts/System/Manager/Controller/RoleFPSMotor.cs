@@ -38,7 +38,7 @@ public class RoleFPSMotor : MonoBehaviour{
     [Tooltip("角色配置")]
     public SORoleBase sORoleBase;
 
-    private void Update() {
+    public void OnUpdate() {
         if (CheckGround()) {
             if (InputSystem.instance.KeyPressDown(KeyCode.Space)) {
                 isJump = true;
@@ -51,7 +51,7 @@ public class RoleFPSMotor : MonoBehaviour{
         }
     }
 
-    private void FixedUpdate() {
+    public void OnFixedUpdate() {
         //移动
         PerformMove();
         //相机视角

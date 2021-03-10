@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// 角色系统
+/// </summary>
 public class RoleSystem{
 
     RoleManager roleManager;
@@ -20,6 +23,10 @@ public class RoleSystem{
     }
 
     public void OnUpdate(){
-        
+        roleManager.OnUpdate();
+    }
+
+    public void OnFixedUpdate(){
+        roleManager.OnFixedUpdate();
     }
 }
